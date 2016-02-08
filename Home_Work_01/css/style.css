@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+}
+
+.font {
+	min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    background-color: lightgrey;
+}
+
+img {
+	max-width: 100%;
+	min-width: 30%;
+}
+
+.main {  	
+  	width: 40%;
+  	margin: auto;
+  	padding: 60px;
+  	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+	border-style: solid;
+	border-color: grey;
+}
+
+.username,
+.targets,
+.contacts,
+.feedback {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-bottom-style: solid;
+}
+
+.feedback {
+	border-bottom-style: none;
+}
+
+.photo,
+h1 {
+	text-align: center;
+	word-wrap: break-word;
+}
+
+p,
+ul {
+	word-wrap: break-word;
+	text-align: left;
+	font-size: 14pt;
+	line-height: 1.5;
+}
