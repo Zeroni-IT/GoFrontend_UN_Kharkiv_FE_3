@@ -3,10 +3,11 @@ body {
 }
 
 .font {
+	padding-bottom: 50px;
 	min-width: 100%;
-    min-height: 100%;
-    position: relative;
-    background-color: lightgrey;
+	min-height: 100%;
+	position: relative;
+	background-color: lightgrey;
 }
 
 img {
@@ -15,10 +16,10 @@ img {
 }
 
 .main {  	
-  	width: 40%;
-  	margin: auto;
-  	padding: 60px;
-  	padding-top: 20px;
+	width: 40%;
+	margin: auto;
+	padding: 60px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 	background-color: white;
 	border-style: solid;
