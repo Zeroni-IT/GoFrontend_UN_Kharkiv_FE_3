@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 50px 50px 45px 60px;
+    width: 965px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+header {
+    margin-bottom: 40px;
+    line-height: 0;
+}
+
+/* MENU */
+nav {
+    height: 40px;
+    font-size: 14.67px;
+    font-family: "Open Sans";
+    background-color: #525151;
+    margin-bottom: 40px;
+}
+
+.menu li {
+    list-style-type: none;
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+    width: 145px;
+    float: left;
+}
+
+.menu a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    width: 145px;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.menu a:hover {
+    background-color: black;
+    border-left: solid;
+    border-right: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+}
+
+/* ASIDE */
+aside {
+    width: 240px;
+    font-family: "Open Sans";
+    font-size: 13.33px;
+    float: left;
+}
+
+.left_navigation ul {
+    display: table-cell;
+    list-style: none;
+    color: #656363;
+}
+
+.left_navigation li {
+    border: 1px solid #c8c8c8;
+    width: 240px;
+}
+
+.left_navigation a {
+    display: block;
+    height: 40px;
+    width: 240px;
+    color: #656363;
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 25px;
+}
+
+.left_navigation a:hover {
+    display: table-cell;
+    vertical-align: middle;
+    color: #2c2c2c;
+    background-color: #f9f9f9;
+    padding-left: 35px;
+}
+
+main {
+    float: left;
+    width: 685px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+.content_img {
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.content_text {
+    font-family: "Open Sans";
+    font-size: 13.33px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    padding: 0 25px;
+}
+
+footer li {
+    font-family: "Open Sans";
+    font-size: 13.33px;
+    list-style-type: none;
+    background-color: #e1e1e1;
+    display: table-cell;
+    width: 150px;
+    vertical-align: middle;
+    height: 40px;
+}
+
+footer a {
+    display: block;
+    color: #2c2c2c;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+footer li:last-child {
+    width: 500px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
