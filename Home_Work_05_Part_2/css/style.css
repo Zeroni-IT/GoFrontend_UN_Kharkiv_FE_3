@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: lightgrey;
+}
+
+.wrapper {
+    margin: 50px 0;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+    border: 1px solid black;
+}
+
+td {
+    border: 10px solid black;
+    height: 70px;
+    width: 70px;
+}
+
+
+/* ROWS */
+tr:first-child td {
+    border-top: 0;
+    height: 40px;
+}
+
+tr:last-child td,
+tr:nth-child(5) td:nth-child(1),
+tr:nth-child(6) td:nth-child(1) {
+    border-bottom: 0;
+}
+
+tr:nth-child(2),
+tr:nth-child(3) td:nth-child(2),
+tr:nth-child(4) td:nth-child(1) {
+    height: 140px;
+}
+
+
+tr:nth-child(2) td:nth-child(1),
+tr:nth-child(3) td:nth-child(1),
+tr:nth-child(5) td:nth-child(1),
+tr:nth-child(6) td:nth-child(2) {
+    width: 40px;
+}
+
+tr:nth-child(1) td:nth-child(2) {
+    width: 210px;
+}
+
+tr:nth-child(4) td:nth-child(2) {
+    width: 140px;
+}
+
+tr:nth-child(7) td:nth-child(1) {
+    height: 40px;
+}
+
+
+/* COLUMNS */
+td:first-child {
+    border-left: 0;
+}
+
+
+
+td:last-child {
+    border-right: 0;
+}
+
+
+/* COLORS */
+.red {
+    background: #ff5b2c;
+}
+
+.yellow {
+    background: #ffef62;
+}
+
+.black {
+    background: #353535;
+}
+
+.blue {
+    background: #0f4c8c;
+}
