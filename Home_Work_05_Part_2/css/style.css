@@ -24,8 +24,6 @@ td {
     width: 70px;
 }
 
-
-/* ROWS */
 tr:first-child td {
     border-top: 0;
     height: 40px;
@@ -43,7 +41,6 @@ tr:nth-child(4) td:nth-child(1) {
     height: 140px;
 }
 
-
 tr:nth-child(2) td:nth-child(1),
 tr:nth-child(3) td:nth-child(1),
 tr:nth-child(5) td:nth-child(1),
@@ -59,17 +56,14 @@ tr:nth-child(4) td:nth-child(2) {
     width: 140px;
 }
 
-tr:nth-child(7) td:nth-child(1) {
+tr:nth-child(7) td:nth-child(1),
+tr:nth-child(6) td:nth-child(2) {
     height: 40px;
 }
 
-
-/* COLUMNS */
 td:first-child {
     border-left: 0;
 }
-
-
 
 td:last-child {
     border-right: 0;

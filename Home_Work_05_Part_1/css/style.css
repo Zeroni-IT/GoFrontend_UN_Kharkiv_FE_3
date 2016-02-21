@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+    url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+    url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    height: 800px;
+    background: linear-gradient(to top, #2e7ac4, #51b1dc);
+    background: url(../img/bg_wrapper.gif) center no-repeat;
+    background-size: cover;
+}
+
+/* HEADER */
+header {
+    background: url(../img/bg_header.gif);
+    overflow: hidden;
+}
+
+.signIn,
+.userName>a,
+nav {
+    float: right;
+    line-height: 38px;
+}
+
+.signIn,
+.signIn>a,
+.userName,
+.userName>a {
+    color: white;
+}
+
+.signIn {
+    margin: 0 20px 0 0;
+    padding: 0 15px 0;
+    line-height: 42px;
+    background: linear-gradient(to top, #2e7ac4, #51b1dc);
+}
+
+.userName>a {
+    text-decoration: none;
+    padding: 0 20px 0 50px;
+    margin: 2px 0;
+    background: url(../img/flag_header.png) 17px 9px no-repeat;
+    border-left: 1px solid #56a2dc;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    color: #60b5ed;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav a:hover {
+    color: #fff;
+    font-weight: bold;
+    background-color: #4eabda;
+}
+
+/* REGISTRATION FORM*/
+section {
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+    top: 10%;
+    width: 560px;
+    background: rgba(0,0,0,0.60);
+
+}
+
+.formHeader {
+    border-bottom: 1px solid #b7c0ab;
+    text-align: center;
+}
+
+.formHeader p {
+    font: 24px/62px Helvetica;
+    font-weight: bold;
+    color: #fff;
+}
+
+.registrationForm {
+    margin: 0 auto;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+section .signInFacebook .facebook {
+    height: 50px;
+}
+
+section .signInFacebook .facebook {
+    display: block;
+    background: url(../img/fb_button.png) center no-repeat;
+}
+
+.OU {
+    margin: 20px 0;
+    color: #999999;
+    text-align: center;
+    font-weight: bold;
+}
+
+section form {
+    width: 276px;
+    margin: 0 auto;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    height: 35px;
+    width: 256px;
+    margin-bottom: 13px;
+    padding-left: 20px;
+    background: black;
+    color: #ccc;
+    border: none;
+    border-bottom: 1px solid #484948;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    box-shadow: 0px 0px 3px 3px rgba(70, 130, 170, 0.7);
+    background: #1b5288;
+    color: #fffbfb;
+    border-bottom: 1px solid #689acc;
+}
+
+form input[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    color: #fff;
+    background: linear-gradient(to top, #2e7ac4, #6bb8e7);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="checkbox"]+label {
+    color: #ccc;
+}
+
+.note {
+    display: block;
+    margin: 0 auto 20px;
+    width: 300px;
+    font-size: 11px;
+    color: #ccc;
+    text-align: center;
+}
