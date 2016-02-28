@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 908px;
+    padding: 15px 45px 0;
+}
+
+/* HEADER */
+header .phones,
+header .phones img,
+header .number-phones {
+    float: left;
+}
+
+header .phones img {
+    position: relative;
+    top: 2px;
+    left: 7px;
+}
+
+header .phones p {
+    line-height: 26px;
+    letter-spacing: 0.47px;
+    padding-left: 5px;
+}
+
+
+header .map-site,
+header .login {
+    float: right;
+}
+
+header .phones {
+    position: relative;
+    top: 5px;
+}
+
+header .number-phones {
+    margin: 0 10px 0 5px;
+    font-size: 18px;
+    color: #5e696d;
+}
+
+header .number-phones p {
+    line-height: 27px;
+    letter-spacing: 0.4px;
+}
+
+header .login {
+    position: relative;
+    margin: 1px 15px 0 0;
+    width: 494px;
+    background: linear-gradient(to top, #0d3458, #1f6787);
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+header .login img {
+    position: relative;
+    margin: 0px 3px;
+    top: 6px;
+    left: 3px;
+}
+
+header .login form {
+    display: inline-block;
+    height: 25px;
+}
+
+header .login form input[type="text"] {
+    margin-right: 3px;
+}
+
+header .login form input[type="text"],
+header .login form input[type="password"] {
+    padding-left: 5px;
+    height: 16px;
+    width: 104px;
+    font-size: 11px;
+    color: #97a2a6;
+}
+
+header .login form input[type="submit"],
+header .login form input[type="button"] {
+    background: transparent;
+    border: none;
+    font-size: 11px;
+    line-height: 1;
+    color: #fff;
+    letter-spacing: 0.16px;
+    cursor: pointer;
+}
+
+header .login form input[type="submit"]:hover,
+header .login form input[type="button"]:hover {
+    color: #bfbfbf;
+    text-decoration: underline;
+}
+
+header .login form input[type="submit"] {
+    border-right: 1px solid #fff;
+    padding: 0 7px 1px 4px;
+}
+
+header .restore {
+    padding: 0 5px 1px 18px;
+}
+
+header .map-site {
+    padding: 1px 2px 1px 1px;
+    margin: 3px 5px 0 0;
+    width: 74px;
+    text-align: center;
+    border: 1px solid #c1c8cb;
+    border-radius: 21px;
+}
+
+header .map-site a {
+    margin: 0 3px;
+}
+
+header .logo img {
+    margin: 9px 0 3px;
+}
+
+
+/* NAVIGATION */
+nav {
+    padding-left: 130px;
+    background: linear-gradient(to top, #000, #4d5663);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 3px auto 3px;
+    float: left;
+    font-size: 0px; /* для того, чтобы убрать оступы между li*/
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 25px;
+    color: #b1bcc0;
+}
+
+nav a:hover {
+    background: linear-gradient(to top, #0d3458, #25617b);
+    color: #fff;
+    border-radius: 20px;
+}
+
+nav .purchase,
+nav .amount,
+nav .products,
+nav .purchase p,
+nav .purchase span {
+    float: right;
+}
+
+nav .purchase {
+    position: relative;
+    right: 24px;
+    top: 6px;
+}
+
+nav .purchase p {
+    position: relative;
+    top: 2px;
+    font-size: 11px;
+    color: #8a9296;
+    margin: 0 0 0 5px;
+}
+
+nav .purchase span {
+    position: relative;
+    top: 2px;
+    font-size: 12px;
+    color: #0d5a8f;
+}
+
+nav .amount,
+nav .amount span {
+    margin-left: 10px;
+}
+
+/* SEARCH */
+section .search-car,
+section .search-tire,
+section .search-wheel {
+    float: left;
+    border-radius: 16px;
+    border: 1px solid #b6b6b7;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: 133px;
+    line-height: 135px;
+    color: #b6b6b7;
+}
+
+section.search {
+    margin: 0 auto;
+    padding: 13px 5px 17px 5px;
+}
+
+section .search-car {
+    width: 410px;
+}
+
+section .search-tire {
+    width: 190px;
+    margin: 0 11px 0 17px;
+}
+
+section .search-wheel {
+    width: 264px;
+}
+
+/* CONTENT */
+main.content {
+    font-size: 14px;
+}
+
+aside.catalog {
+    float: left;
+    width: 181px;
+}
+
+aside.brends {
+    float: right;
+    width: 185px;
+}
+
+aside .content-header,
+aside .content-sections div {
+    margin: 0 0 10px 0;
+    color: #114165;
+    border: 1px solid #8b979c;
+    border-radius: 30px;
+}
+
+#brends-tires {
+    margin-left: 17px;
+    width: 125px;
+}
+
+#brends-disks {
+    margin-left: 16px;
+    width: 126px;
+}
+
+#button-select {
+    margin-left: 26px;
+    margin-top: 8px;
+}
+
+#brends-tires-ul,
+#brends-disks-ul{
+    margin-left: 17px;
+    padding-left: 14px;
+    letter-spacing: 0.5px;
+}
+
+#brends-tires-ul {
+
+}
+
+
+aside .content-header {
+    padding: 1px 0 0 2px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+aside .content-sections div {
+    padding: 1px 5px;
+    width: 139px;
+}
+
+aside .content-header span,
+aside .content-sections span {
+    position: relative;
+    top: -5px;
+}
+
+aside #small-text {
+    font-size: 13px;
+}
+
+aside .content-sections,
+aside a,
+aside input[type="checkbox"] {
+
+    color: #465961;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li ul {
+    padding-left: 53px;
+    line-height: 0.1px;
+    letter-spacing: -1.5px;
+}
+
+aside ul li ul li {
+    height: 25px;
+    list-style-type: circle;
+}
+
+aside.brends ul li ul li {
+    list-style-type: none;
+}
+
+aside.brends ul li ul {
+    padding-left: 5px;
+}
+
+aside input[type="button"] {
+    margin: 10px 20px;
+    width: 85px;
+    line-height: 25px;
+    background: linear-gradient(to top, #0d365a, #7a95a1);
+    border: none;
+    border-radius: 21px;
+    color: #e5e9ea;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+aside input[type="checkbox"] {
+    width: 11px;
+    height: 11px;
+    margin-right: 7px;
+}
+
+aside a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+aside a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* MAIN CONTENT */
+main .products {
+    background: linear-gradient(to top, #a1b3bb, #e5e7e8);
+    float: right;
+    height: 625px;
+    width: 523px;
+    margin: 0px 8px 8px 0px;
+    text-align: center;
+}
+
+main .products section {
+    float: left;
+    margin: 14.3px 9px 9px 20px;
+}
+
+main .products section a {
+    text-decoration: none;
+}
+
+figcaption {
+    padding-left: 9px;
+}
+
+figcaption span {
+    margin-left: 4px;
+}
+
+#content-main {
+    margin-top: 12px;
+}
+
+#content-disks {
+    margin-top: -12px;
+}
+
+#content-bolts {
+    margin-top: -13px;
+}
+
+
+main section .tires-name {
+    font-family: "Lucida Sans Unicode", Arial;
+    font-size: 15px;
+    line-height: 15px;
+    color: #206988;
+}
+
+main section .tires-type {
+    font-family: "Lucida Sans Unicode", Arial;
+    font-size: 13px;
+    line-height: 13px;
+    color: #1f2528;
+}
+
+main section figcaption {
+    font-size: 16px;
+    color: #114165;
+    font-style: italic;
+    font-weight: bold;
+}
+
+main section span {
+    font-size: 12px;
+}
+
+/* LOGOTYPES */
+section.brends-logotypes {
+    margin: 30px 0 20px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    padding-top: 7px;
+    height: 92px;
+    width: 908px;
+    background: #213a4d;
+    border: 1px solid #e2e3e5;
+    text-align: center;
+}
+
+footer ul {
+    margin: 3px 0;
+    font-size: 0px; /* для того, чтобы убрать оступы между li*/
+}
+
+footer ul li {
+    display: inline-block;
+    font-size: 12px;
+    padding-right: 1px;
+}
+
+footer a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 12px;
+    color: #bec6c9;
+}
+
+footer a:hover {
+    color: #52abcb;
+}
+
+footer li:nth-child(1),
+footer li:nth-child(2),
+footer li:nth-child(3) {
+    border-right: 1px solid #fff;
+    border-color: #bec6c9;
+}
+
+footer p {
+    margin-top: 14px;
+    font-size: 10px;
+    color: #7f4740;
+}
+
+/* CLEARFIX*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
