@@ -1,0 +1,99 @@
+@media screen and (min-width: 0px) and (max-width: 496px) {
+    .container {
+        width: 280px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* HEADER */
+    .header {
+        overflow: visible;
+        height: 175px;
+        text-align: center;
+    }
+
+    .header__logo {
+        float: none;
+        margin: 0;
+        padding-top: 70px;
+        padding-bottom: 23px;
+    }
+
+    /* MENU VERTICAL */
+    nav {
+        visibility: hidden;
+        position: absolute;
+        margin-top: 0;
+        top: 130px;
+        left: 17px;
+        background: rgba(54, 41, 62, 0.9);
+        border-radius: 12px;
+        border: 1px solid #000;
+        z-index: 5;
+    }
+
+    nav:hover,
+    .menu__list-items:first-child a {
+        visibility: visible;
+        transition: all 2s;
+    }
+
+    .menu__list {
+        float: none;
+    }
+
+    .menu__list-items {
+        display: block;
+        margin: 0 auto;
+        height: 40px;
+        width: 245px;
+        border-bottom: 2px solid #523f5a;
+    }
+
+    .menu__list-items:last-child {
+        border: none;
+    }
+
+    .menu__list-items:last-child:hover {
+        border: none;
+        border-radius: 0 0 12px 12px;
+    }
+
+    .menu__list-items:first-child:hover {
+        border-radius: 12px 12px 0 0;
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .menu__list-items a {
+        padding: 0;
+        display: inline-block;
+        width: 245px;
+        font: 24px/40px "League Gothic Regular", Arial, sans-serif;
+    }
+
+    .menu__list-items:first-child a {
+        height: 37px;
+        width: 45px;
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .menu__list-items:first-child a:hover {
+        height: 40px;
+        width: 245px;
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .menu__list-items a:hover {
+        border-bottom: 2px solid #edbfff;
+        transition: all 0.1s;
+    }
+
+    .menu__list-items:last-child:hover {
+        border-bottom: none;
+    }
+
+    .menu__list-items:hover {
+        background: #3b2f44;
+        transition: all 0.5s;
+    }
+}

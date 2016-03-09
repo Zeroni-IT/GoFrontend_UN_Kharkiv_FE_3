@@ -1,0 +1,223 @@
+@media screen and (min-width: 785px) and (max-width: 977px) {
+    .container {
+        width: 728px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header {
+        height: 245px;
+    }
+
+    /* MENU HORIZONTAL */
+    nav {
+        float: left;
+        margin: 0 0 0 -4px;
+        overflow: hidden;
+    }
+
+    .menu__list-items {
+        display: inline-block;
+        margin: 0 42px 0 0;
+    }
+
+
+    /* SLIDER */
+    .slider__content {
+        width: 275px;
+        margin-left: 25px;
+        padding-top: 100px;
+    }
+
+    .slider__content h1 {
+        font: 48px/48px "League Gothic Regular", Arial, sans-serif;
+    }
+
+    .slider__content h2 {
+        font: 24px/24px "League Gothic Regular", Arial, sans-serif;
+        max-height: 24px;
+        overflow: hidden;
+    }
+
+    .slider__content p {
+        font: 16px/25px "Open Sans Light", Arial, sans-serif;
+        max-height: 100px;
+        overflow: hidden;
+    }
+
+    .slider__phone {
+        left: 440px;
+    }
+
+    .slider__button-play {
+        left: 575px;
+    }
+
+    .slider__button-previous {
+        left: 0px;
+    }
+
+    .slider__button-next {
+        left: 745px;
+    }
+
+    .slider-nav__control {
+        top: 35px;
+        left: 535px;
+    }
+
+    /* MAIN CONTENT */
+    /* ABOUT */
+    .about-blocks__area article {
+        max-width: 155px;
+    }
+
+    .about-blocks__area article h3 {
+        margin-bottom: 5px;
+        font: 24px/24px "League Gothic Regular", Arial, sans-serif;
+    }
+
+    .about-blocks__area article p {
+        max-height: 135px;
+        font: 16px/22px "Open Sans Light", Arial, sans-serif;
+    }
+
+    .about-blocks__read-more {
+        margin-top: 12px;
+        font: 18px/18px "League Gothic Regular", Arial, sans-serif;
+    }
+
+    .about-blocks__right .about-blocks__icon,
+    .about-blocks__center .about-blocks__icon,
+    .about-blocks__left .about-blocks__icon {
+        left: -50px;
+        bottom: 163px;
+        background: url(../img/icons_about.png) 0px 0px no-repeat;
+    }
+
+    /* BLOG STARTS HERE */
+    .blog-blocks__starts-here {
+        padding: 30px 25px 48px 38px;
+        width: 251px;
+    }
+
+    .blog-blocks__starts-here h3 {
+        margin-bottom: 15px;
+        font: 24px/24px "League Gothic Regular", Arial, sans-serif;
+        max-width: 85px;
+    }
+
+    .blog-blocks__recent-updates h3 {
+        margin-bottom: 20px;
+        font: 24px/24px "League Gothic Regular", Arial, sans-serif;
+        max-width: 135px;
+    }
+
+    .blog-blocks__starts-here p {
+        overflow: hidden;
+        max-height: 135px;
+    }
+
+    .blog-blocks__starts-here-ico {
+        left: 19px;
+    }
+
+    .slider-nav__control--blog {
+        bottom: 70px;
+        left: 155px;
+    }
+
+    /* BLOG RECENT UPDATES*/
+    .blog-blocks__recent-updates {
+        width: 335px;
+    }
+
+    .blog-blocks__recent-updates-news,
+    .blog-blocks__recent-updates-category,
+    .blog-blocks__recent-updates-blog {
+        position: relative;
+        margin-left: 65px;
+        width: 265px;
+    }
+
+    .blog-blocks__recent-updates-news p,
+    .blog-blocks__recent-updates-category p,
+    .blog-blocks__recent-updates-blog p {
+        max-height: 22px;
+        overflow: hidden;
+    }
+
+    .blog-blocks__recent-updates-read-more:before {
+        content: "MORE BLOG POSTS";
+        display: block;
+    }
+
+    .blog-blocks__recent-updates-read-more {
+        max-width: 90px;
+        max-height: 16px;
+        overflow: hidden;
+    }
+
+    /* BRANDS */
+    .blog-blocks__1,
+    .blog-blocks__2,
+    .blog-blocks__5 {
+        margin-left: 0;
+        margin-right: 53px;
+    }
+
+    .blog-blocks__3 {
+        margin-right: 65px;
+    }
+
+    .blog-blocks__4 {
+        margin-right: 58px;
+    }
+
+    .blog-blocks__6 {
+        margin-right: 0;
+    }
+
+    /* INFO */
+    .info-blocks__area article {
+        max-width: 207px;
+    }
+
+    .info-blocks__left p {
+        max-height: 155px;
+    }
+
+    .info-blocks__center {
+        margin: 0 53px;
+    }
+
+    .info-blocks__left h1,
+    .info-blocks__center h3:nth-child(2),
+    .info-blocks__copyrights {
+        display: none;
+    }
+
+    .info-blocks__left h3,
+    .info-blocks__center h3:first-child {
+        display: block;
+    }
+
+    /* FOOTER */
+
+    footer {
+        background-size: cover;
+    }
+
+    .footer {
+        height: 200px;
+    }
+
+    .menu--footer {
+        margin-bottom: 35px;
+    }
+
+    .footer p {
+        margin: 0;
+    }
+
+}
