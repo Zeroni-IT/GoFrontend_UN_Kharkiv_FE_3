@@ -1,6 +1,5 @@
 var number = prompt('Введите число для возведения в степень: ');
 var power = prompt('Введите степень: ');
-var userPow
 
 function involution(number, power) {
     var result = Math.exp(Math.log(number) * power);
