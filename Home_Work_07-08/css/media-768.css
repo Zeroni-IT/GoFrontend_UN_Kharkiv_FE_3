@@ -1,4 +1,4 @@
-@media screen and (min-width: 785px) and (max-width: 977px) {
+@media all and (max-width: 977px) {
     .container {
         width: 728px;
         padding-left: 20px;
@@ -20,7 +20,6 @@
         display: inline-block;
         margin: 0 42px 0 0;
     }
-
 
     /* SLIDER */
     .slider__content {
@@ -203,7 +202,6 @@
     }
 
     /* FOOTER */
-
     footer {
         background-size: cover;
     }
@@ -214,6 +212,12 @@
 
     .menu--footer {
         margin-bottom: 35px;
+    }
+
+    .menu--footer-480 {
+        position: static;
+        height: 0;
+        visibility: hidden;
     }
 
     .footer p {

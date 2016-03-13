@@ -1,4 +1,4 @@
-@media screen and (min-width: 497px) and (max-width: 784px) {
+@media screen and (max-width: 784px) {
     .container {
         width: 440px;
         padding-left: 20px;
@@ -20,7 +20,7 @@
     }
 
     /* MENU VERTICAL */
-    nav {
+    .menu {
         visibility: hidden;
         position: absolute;
         margin-top: 0;
@@ -85,7 +85,7 @@
 
     .menu__list-items a:hover {
         border-bottom: 2px solid #edbfff;
-        transition: all 0.1s;
+        transition: all 0.03s;
     }
 
     .menu__list-items:last-child:hover {
@@ -160,9 +160,10 @@
 
     .slider-nav__control {
         top: 25px;
-        left: 175px;
+        left: 192px;
     }
 
+    /* MAIN CONTENT */
     /* ABOUT */
     .about-blocks {
         height: 600px;
@@ -205,5 +206,211 @@
         background: url(../img/icons_about.png) 0px 0px no-repeat;
     }
 
+    /* BLOG STARTS HERE */
+    .blog-blocks__area {
+        height: 680px;
+    }
+
+    .blog-blocks__starts-here {
+        position: absolute;
+        margin-left: 50px;
+        padding-right: 30px;
+        padding-left: 30px;
+        top: 70px;
+        left: 0px;
+        width: 350px;
+    }
+
+    .blog-blocks__starts-here-ico {
+        top: 20px;
+        left: -24px;
+    }
+
+    .slider-nav__control--blog {
+        left: 200px;
+        top: 370px;
+    }
+
+    .blog-blocks__recent-updates {
+        position: absolute;
+        margin-left: 81px;
+        width: 335px;
+        top: 400px;
+        left: 0;
+        overflow: hidden;
+    }
+
+    .blog-blocks__recent-updates p {
+        overflow: hidden;
+        max-width: 260px;
+        max-height: 20px;
+    }
+
+    .blog-blocks__recent-updates-read-more:before {
+        content: "MORE BLOG POSTS";
+        display: block;
+    }
+
+    .blog-blocks__recent-updates-read-more {
+        max-width: 90px;
+        max-height: 16px;
+        overflow: hidden;
+    }
+
+    .blog-blocks__brands {
+        height: 230px;
+    }
+
+    .blog-blocks__brands section {
+        margin-top: 40px;
+    }
+
+    .blog-blocks__1 {
+        margin-left: 80px;
+        margin-right: 55px;
+    }
+
+    .blog-blocks__2 {
+        margin-right: 55px;
+        width: 73px;
+    }
+
+    .blog-blocks__3 {
+        margin-right: 0;
+    }
+
+    .blog-blocks__4 {
+        margin-right: 55px;
+        margin-left: 64px;
+        margin-top: 25px;
+    }
+
+    .blog-blocks__5 {
+        margin-right: 55px;
+        margin-top: 25px;
+    }
+
+    .blog-blocks__6 {
+        margin-right: 0;
+        margin-top: 25px;
+    }
+
+    /* NEWS */
+    .info-blocks {
+        height: 670px;
+        overflow: hidden;
+    }
+
+    .info-blocks__area article {
+        max-width: 440px;
+        letter-spacing: -0.005em;
+    }
+
+    .info-blocks__area article {
+        margin-top: 60px;
+    }
+
+    .info-blocks__left p,
+    .info-blocks__right p,
+    .info-blocks__center p {
+        max-height: 88px;
+        overflow: hidden;
+    }
+
+    .info-blocks__center {
+        margin: 0 0;
+    }
+
+    .info-blocks__left h1,
+    .info-blocks__center h3:nth-child(2),
+    .info-blocks__copyrights {
+        display: none;
+    }
+
+    .info-blocks__left h3,
+    .info-blocks__center h3:first-child {
+        display: block;
+    }
+
+    footer {
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    .footer {
+        height: 200px;
+        text-align: center;
+    }
+
+    .footer p {
+        float: none;
+    }
+
+    /* MENU FOOTER */
+    .menu--footer {
+
+        float: none;
+        margin: 50px 0 30px;
+    }
+
+    .menu--footer .menu__list {
+        float: left;
+        font-size: 0px;
+    }
+
+    .menu--footer .menu__list-items {
+        display: inline-block;
+        float: left;
+        width: auto;
+        margin: 0 16px 0 0;
+        border: none;
+        height: 30px;
+        border-radius: 0 0 0 0;
+    }
+
+    .menu--footer .menu__list-items a {
+        padding: 0 4px;
+        width: auto;
+        text-decoration: none;
+        color: #fff;
+        font: 20px/28px "League Gothic Regular", Arial, sans-serif;
+        text-transform: uppercase;
+        text-shadow: 1px 2px 0 rgba(0, 0, 0, .4);
+    }
+
+    .menu--footer .menu__list-items:last-child {
+        margin-right: 0;
+    }
+
+    .menu--footer .menu__list-items:hover {
+        background: none;
+        transition: none;
+    }
+
+    .menu--footer .menu__list-items a:hover {
+        border-bottom: 2px solid #edbfff;
+        transition: none;
+    }
+
+    .menu--footer .menu__list-items:first-child a {
+        height: 28px;
+        border-bottom: none;
+    }
+
+    .menu--footer .menu__list-items:first-child a:hover {
+        height: 28px;
+        width: auto;
+        border-bottom: none;
+    }
+
+    .menu--footer .menu__list-items:first-child:hover {
+        height: 28px;
+        border-radius: 0 0 0 0;
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .footer p {
+        margin: 0;
+    }
 
 }
