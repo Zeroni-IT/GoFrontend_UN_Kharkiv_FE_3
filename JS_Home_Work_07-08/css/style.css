@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 960px;
+}
+
+.tabs_area {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.tabs_menu {
+    list-style: none;
+    background: linear-gradient(to top, #ccc, #e2e2e2);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 5px 0 0;
+}
+
+.tabs_menu_item {
+    position: relative;
+    float: left;
+    padding: 10px;
+    background: #eaeaea;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    margin-left: 5px;
+    z-index: 1;
+}
+
+.active_item {
+    background: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tabs_menu_item_link {
+    text-decoration: none;
+    color: #000;
+}
+
+.tabs_menu_item_link a {
+    text-decoration: none;
+}
+
+.tab {
+    display: none;
+}
+
+.active_tab {
+    position: relative;
+    display: block;
+    padding: 30px 20px;
+}
+
+.tooltip_input {
+    width: 178px;
+    margin: 10px 0;
+}
+
+.tooltip_button {
+    width: 265px;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tooltip_button:hover {
+    cursor: pointer;
+    border: 2px solid lightblue;
+}
+
+.tip {
+    display: none;
+    margin: 0 10px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    background: lightblue;
+    padding: 3px 10px;
+}
+
+.labels {
+    display: inline-block;
+    width: 80px;
+}
+
+.form_area {
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
