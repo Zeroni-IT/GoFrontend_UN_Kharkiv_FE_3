@@ -60,7 +60,7 @@ h1 {
     color: white;
 }
 
-.sub_menu {
+.sub_menu_level_1 {
     position: absolute;
     top: 30px;
     left: 0;
@@ -69,13 +69,28 @@ h1 {
     z-index: 1;
 }
 
-.sub_menu--link {
+.sub_menu_level_2 {
+    position: absolute;
+    left: 140px;
+    display: none;
+    background-color: green;
+    z-index: 1;
+}
+
+.sub_menu_level_1--link,
+.sub_menu_level_2--link{
     display: block;
     padding: 5px 20px;
     width: 100px;
     text-decoration: none;
     color: white;
 }
+
+.sub_menu_level_1--item {
+    top: 0px;
+}
+
+
 
 section {
     padding: 20px;

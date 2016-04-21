@@ -1,7 +1,7 @@
 $(function () {
 
     var showDropdown = function () {
-        $(this).children('.sub_menu')
+        $(this).children('.sub_menu_level_1')
             .show(200)
             .animate({
                 backgroundColor: "green",
@@ -10,7 +10,7 @@ $(function () {
     };
 
     var hideDropdown = function () {
-        $(this).children('.sub_menu')
+        $(this).children('.sub_menu_level_1')
             .hide(200)
             .animate({
                 backgroundColor: "lime",
@@ -34,7 +34,28 @@ $(function () {
         }, 100);
     };
 
-    $('.sub_menu--link').hover(changeColor, changeColorBack);
+    $('.sub_menu_level_1--link').hover(changeColor, changeColorBack);
+    $('.sub_menu_level_2--link').hover(changeColor, changeColorBack);
+
+
+    var show_sub_menu_level_2 = function () {
+        var $item = $(this).children('.sub_menu_level_2');
+        var top_position = parseInt($(this).css('top'));
+
+        $item.css('top', + top_position + 'px');
+
+        $(this).children('.sub_menu_level_2')
+            .toggle(200)
+            .animate({
+                backgroundColor: "green",
+            }, 200)
+        ;
+    };
+
+    $('li.sub_menu_level_1--item').hover(show_sub_menu_level_2);
+    
+
+
 
     $('.jcarousel')
         .jcarousel({
