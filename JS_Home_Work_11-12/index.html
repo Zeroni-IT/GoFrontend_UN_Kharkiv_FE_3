@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home Work #11-12 JavaScript [FE_3 Kharkov]</title>
+    <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/jQuery.carousel.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+<script type="text/html" id="sample-template">
+
+    <div class="wrapper">
+
+        <a href="#" class="carousel-arrow-left"></a>
+        <div class="carousel-hider">
+            <ul class="carousel-list">
+
+                <% for (var i = 0; i<data.length; i++) { %>
+                <li class="carousel-element">
+                    <img src="<%= data[i].emblem %>">
+                    <p><%= data[i].name %></p>
+                </li>
+                <% }; %>
+
+            </ul>
+        </div>
+        <a href="#" class="carousel-arrow-right"></a>
+
+    </div>
+
+</script>
+
+</body>
+</html>

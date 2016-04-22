@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../img/background.jpg") repeat;
+}
+
+.wrapper {
+    position: relative;
+    margin: 150px auto;
+    width: 875px;
+}
+
+.carousel-hider {
+    width: 875px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px -4px 60px;
+    text-align: center;
+}
+
+.carousel-list {
+    list-style: none;
+    width: 10000px;
+    position: relative;
+}
+
+.carousel-list p {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+}
+
+.carousel-element img {
+    max-width: 200px;
+}
+
+.carousel-arrow-left,
+.carousel-arrow-right {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: -50px;
+    height: 34px;
+    width: 24px;
+    background: url(../img/arrows.png) no-repeat;
+}
+
+.carousel-arrow-right {
+    left: 900px;
+    background-position: -24px 0;
+}
