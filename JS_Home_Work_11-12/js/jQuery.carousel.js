@@ -17,7 +17,7 @@
                 currentLeftValue = minimumOffset;
                 elementsList.animate({
                         left: currentLeftValue + 'px'
-                    }, 10,
+                    }, 1500,
                     function() {
                         elementsList.stop(true);
                     });
@@ -39,7 +39,7 @@
                 currentLeftValue = 0;
                 elementsList.animate({
                     left: currentLeftValue + 'px'
-                }, 10,
+                }, 1500,
                     function() {
                         elementsList.stop(true);
                     });
