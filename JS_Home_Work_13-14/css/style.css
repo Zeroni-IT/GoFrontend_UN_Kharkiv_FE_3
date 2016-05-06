@@ -1,0 +1,60 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css);
+
+body {
+    background: lightgrey;
+}
+
+.wrapper {
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px 40px;
+    width: 700px;
+    background: white;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.checkbox {
+    padding: 0px 0px 0px 20px;
+}
+
+input[type=button] {
+    width: 210px;
+}
+
+.modal-window {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-window-content {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 40%;
+    height: 450px;
+    text-align: center;
+    background: white;
+    border: 2px solid grey;
+}
+
+.modal-window-content img {
+    margin: 20px 0;
+}
+
+.successfully {
+    color: limegreen;
+    font-weight: bold;
+}
+
+.unsuccessfully {
+    color: red;
+    font-weight: bold;
+}

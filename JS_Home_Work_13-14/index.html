@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home Work #13-14 JavaScript [FE_3 Kharkov]</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.2/lodash.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+<div class="wrapper center-block">
+    <h2>Тест по программированию</h2>
+    <form action="" id="form">
+
+        <script type="text/html" id="template">
+            <% for (var i = 0; i < data.length; i++) { %>
+                <h3><%= i+1 %>. <%= data[i].question %></h3>
+
+                <% for (var j = 0; j < data[i].answers.length; j++) { %>
+                    <label class="checkbox">
+                    <input type="checkbox"
+                        id="Q<%= i+1 %>A<%= j+1 %>"
+                            <% if(data[i].answers[j].correct) { %>
+                                value="1">
+                            <% } else {%>
+                                value="0">
+                            <% } %>
+                    <%= data[i].answers[j].answer %>
+                    </label>
+                <% } %>
+            <% } %>
+        </script>
+
+        <input type="button" id="checkResults" class="btn btn-primary center-block" value="Проверить мои результаты">
+    </form>
+</div>
+
+
+</body>
+</html>
