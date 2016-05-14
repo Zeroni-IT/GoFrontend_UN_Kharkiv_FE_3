@@ -1,0 +1,39 @@
+.modal-window {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-window-content {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 40%;
+    height: 450px;
+    overflow: hidden;
+    text-align: center;
+    background: white;
+    border: 2px solid grey;
+}
+
+.modal-window-content img {
+    margin: 20px 0;
+}
+
+.search-request span {
+    font-size: 34px;
+    color: #ffcd2e;
+    font-weight: bold;
+}
+
+.search-request {
+    font-weight: bold;
+}
+
+.recommends {
+    padding-left: 20px;
+    text-align: left;
+}

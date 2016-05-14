@@ -1,0 +1,71 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css);
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    background: white;
+}
+
+.search {
+    height: auto;
+    width: 100%;
+    margin: 50px auto 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.search-small {
+    display: flex;
+    padding: 10px 0;
+    height: 70px;
+    justify-content: center;
+    background: #F2F2F2;
+}
+
+.logo-small {
+    margin: 0 10px;
+    height: 50px;
+}
+
+.title p {
+    font-size: 35px;
+    text-shadow: 1px 1px 2px grey, 0 0 1em lightgrey;
+}
+
+.title span:nth-child(1) {
+     color: red;
+ }
+
+.title span:nth-child(2) {
+    color: lawngreen;
+}
+
+.title span:nth-child(3) {
+    color: yellow;
+}
+
+input[type=text] {
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 300px;
+}
+
+#checkResults {
+    display: inline-block;
+    width: 170px;
+}
+
+#tryAgain {
+    display: block;
+    width: 170px;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.image_container {
+    padding: 10px 10px;
+    width: 25%;
+}

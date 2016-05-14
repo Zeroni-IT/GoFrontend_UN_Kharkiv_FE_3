@@ -1,0 +1,15 @@
+{
+  "name": "js_home_work_17-18",
+  "version": "1.0.0",
+  "description": "grunt",
+  "repository": "https://github.com/Zeroni-IT/JS_Home_Work_17-18.git",
+  "author": "Zeroni-IT",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1"
+  }
+}
