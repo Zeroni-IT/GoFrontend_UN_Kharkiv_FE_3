@@ -26,7 +26,7 @@ var myConstructor = {
         if (collectionParams.width) {
             element.style.width = collectionParams.width;
         }
-        
+
         if (collectionParams.backgroundColor) {
             element.style.backgroundColor = collectionParams.backgroundColor;
         }
