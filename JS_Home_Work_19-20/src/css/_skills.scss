@@ -1,0 +1,73 @@
+/* SKILLS */
+
+.skills-item {
+
+    position: relative;
+    float: left;
+    width: 360px;
+
+    &__img {
+        display: inline-block;
+        height: 32px;
+        width: 32px;
+        background: url("../img/sprite-skills.png");
+
+        &--left {
+            background-position: -5px -5px;
+        }
+
+        &--center {
+            background-position: -47px -5px;
+        }
+
+        &--right {
+            background-position: -89px -5px;
+        }
+    }
+
+    &__title {
+        position: absolute;
+        top: 20px;
+        font-size: 90px;
+        color: #efeff0;
+        letter-spacing: -5px;
+    }
+
+    &__block {
+        padding-left: 125px;
+    }
+
+    &__head {
+        margin-top: 20px;
+        font-size: 20px;
+        color: #2a2b2e;
+    }
+
+    &__content {
+        margin: 25px 0;
+        font-size: 13px;
+        color: #939393;
+    }
+
+    &__readmore {
+        font-size: 13px;
+        color: #2a2b2e;
+        text-decoration: none;
+
+        &:hover {
+            color: $blue-color;
+
+            & .skills-item__arrow {
+                background-position: 0 -9px;
+            }
+        }
+    }
+
+    &__arrow {
+        display: inline-block;
+        margin-left: 10px;
+        height: 9px;
+        width: 10px;
+        background: url('../img/sprite-arrow.png');
+    }
+}

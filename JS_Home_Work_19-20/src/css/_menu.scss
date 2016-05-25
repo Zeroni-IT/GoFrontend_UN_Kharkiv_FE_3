@@ -1,0 +1,56 @@
+.nav-menu {
+    background-color: $style-color;
+    font: 24px/17px $main-font;
+
+    &__list {
+        display: inline-block;
+    }
+
+    &__item {
+        display: block;
+        float: left;
+        border-right: 1px solid black;
+
+        &:hover .nav-menu__link {
+            color: $gold-color;
+        }
+    }
+
+    &__link {
+        display: block;
+        padding: 19px 40px;
+        text-decoration: none;
+        color: #fff;
+        font: 14px/20px $secondary-font;
+
+        &--active {
+            background-color: $blue-color;
+        }
+    }
+}
+
+.menu-search {
+    position: relative;
+    float: right;
+
+    &__input {
+        padding: 10px 15px;
+        margin: 8px;
+        width: 240px;
+        border: 1px solid #000;
+        background-color: #35383c;
+        color: #5d6063;
+        font: 12px/20px $additional-font;
+
+        &:focus {
+            color: #fff;
+            border: 1px solid $blue-color;
+        }
+    }
+
+    &__submit {
+        position: absolute;
+        top: 23px;
+        right: 25px;
+    }
+}

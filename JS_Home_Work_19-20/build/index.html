@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home Work #19-20 JavaScript [FE_3 Kharkov]</title>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.main.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.1.2/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.12.0/lodash.js"></script>
+    <script src="js/script.main.js"></script>
+
+</head>
+
+<body>
+<header>
+    <div class="header-container clearfix">
+        <section class="header-logo">
+            <a href="#"><img src="img/logo.png" alt="logo"></a>
+        </section>
+        <section class="header-social">
+            <ul class="header-social__list">
+                <li class="header-social__item">
+                    <a href="#" class="header-social__link header-social__link--facebook"></a>
+                </li>
+                <li class="header-social__item">
+                    <a href="#" class="header-social__link header-social__link--twitter"></a>
+                </li>
+                <li class="header-social__item">
+                    <a href="#" class="header-social__link header-social__link--rss"></a>
+                </li>
+                <li class="header-social__item">
+                    <a href="#" class="header-social__link header-social__link--linkedin"></a>
+                </li>
+                <li class="header-social__item">
+                    <a href="#" class="header-social__link header-social__link--skype"></a>
+                </li>
+            </ul>
+        </section>
+    </div>
+</header>
+<section class="menu">
+    <div class="menu-container">
+        <nav class="nav-menu">
+            <ul class="nav-menu__list clearfix">
+                <li class="nav-menu__item">
+                    <a class="nav-menu__link nav-menu__link--active" href="#">HOME</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a class="nav-menu__link" href="#">FEATURES</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a class="nav-menu__link" href="#">SERVICES</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a class="nav-menu__link" href="#">NEWS</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a class="nav-menu__link" href="#">SHOP</a>
+                </li>
+            </ul>
+            <form class="menu-search" action="">
+                <input class="menu-search__input" type="text" placeholder="Search...">
+                <input class="menu-search__submit" type="image" src="img/menu-search-icon.png" name="submit">
+            </form>
+        </nav>
+    </div>
+</section>
+<section class="slider">
+    <div class="slider-container">
+        <ul class="bxslider">
+            <li><img src="img/slide-img-1.jpg" /></li>
+            <li><img src="img/slide-img-2.jpg" /></li>
+            <li><img src="img/slide-img-3.jpg" /></li>
+        </ul>
+    </div>
+</section>
+<section class="skills">
+    <div class="skills-container clearfix">
+        <div class="skills-item">
+            <span class="skills-item__title">01</span>
+            <div class="skills-item__block">
+                <div class="skills-item__img skills-item__img--left"></div>
+                <h4 class="skills-item__head">Power Inside</h4>
+                <div class="skills-item__content">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique</div>
+                <a href="#" class="skills-item__readmore">Read more <span class="skills-item__arrow"></span></a>
+            </div>
+        </div>
+        <div class="skills-item">
+            <span class="skills-item__title">02</span>
+            <div class="skills-item__block">
+                <div class="skills-item__img skills-item__img--center"></div>
+                <h4 class="skills-item__head">New Technologies</h4>
+                <div class="skills-item__content">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique</div>
+                <a href="#" class="skills-item__readmore">Read more <span class="skills-item__arrow"></span></a>
+            </div>
+        </div>
+        <div class="skills-item">
+            <span class="skills-item__title">03</span>
+            <div class="skills-item__block">
+                <div class="skills-item__img skills-item__img--right"></div>
+                <h4 class="skills-item__head">Fast Support</h4>
+                <div class="skills-item__content">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique</div>
+                <a href="#" class="skills-item__readmore">Read more <span class="skills-item__arrow"></span></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="services">
+    <div class="services-container">
+        <h3 class="services-head">Our Services</h3>
+        <div class="clearfix">
+            <div class="services-item">
+                <a class="services-item__link services-item__link--schedule" href="#">
+                    <span class="services-item__title">Schedule Services</span>
+                    <span class="services-item__cover"></span>
+                    <span class="services-item__cover-img"><img src="img/service-cover-cross.png"/></span>
+                </a>
+            </div>
+            <div class="services-item">
+                <a class="services-item__link services-item__link--maintenance" href="#">
+                    <span class="services-item__title">Preventive Maintenance</span>
+                    <span class="services-item__cover"></span>
+                    <span class="services-item__cover-img"><img src="img/service-cover-cross.png"/></span>
+                </a>
+            </div>
+            <div class="services-item">
+                <a class="services-item__link services-item__link--tire" href="#">
+                    <span class="services-item__title">Tire & Wheel Services</span>
+                    <span class="services-item__cover"></span>
+                    <span class="services-item__cover-img"><img src="img/service-cover-cross.png"/></span>
+                </a>
+            </div>
+            <div class="services-item">
+                <a class="services-item__link services-item__link--repair" href="#">
+                    <span class="services-item__title">Repair Services</span>
+                    <span class="services-item__cover"></span>
+                    <span class="services-item__cover-img"><img src="img/service-cover-cross.png"/></span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="updates">
+    <div class="updates-container">
+        <div class="clearfix">
+            <div class="news">
+                <h3 class="news-head">Last News</h3>
+                <div class="news-block">
+                    <div class="news-item clearfix">
+                        <div class="news-item__view">
+                            <img class="news-item__img" src="img/updates-img-1.jpg"/>
+                            <div class="news-item__public-date">
+                                <span class="news-item__month">Jan</span>
+                                <span class="news-item__date">23</span>
+                            </div>
+                        </div>
+                        <div class="news-item__body">
+                            <a class="news-item__head" href="#">Advanced Machinery Helps Improve Quality</a>
+                            <span class="news-item__author">by <a class="news-item__linked" href="#">cmsmasters</a><span class="news-item__comment">Comments (<a class="news-item__linked" href="#">6</a>)</span></span>
+                            <div class="news-item__content">Cum sociis natoque penatibus et magnis dis parturient ontesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-block">
+                    <div class="news-item clearfix">
+                        <div class="news-item__view">
+                            <img class="news-item__img" src="img/updates-img-2.jpg"/>
+                            <div class="news-item__public-date">
+                                <span class="news-item__month">Jan</span>
+                                <span class="news-item__date">21</span>
+                            </div>
+                        </div>
+                        <div class="news-item__body">
+                            <a class="news-item__head" href="#">Powerful Techniques for Advanced Service</a>
+                            <span class="news-item__author">by <a class="news-item__linked" href="#">cmsmasters</a><span class="news-item__comment">Comments (<a class="news-item__linked" href="#">3</a>)</span></span>
+                            <div class="news-item__content">Cum sociis natoque penatibus et magnis dis parturient ontesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banners">
+                <h3 class="banners-head">Banners Place</h3>
+                <div class="banners-block">
+                    <ul class="accordion">
+                        <li class="accordion-item">
+                            <a class="accordion-item__panel" href=""><span class="accordion-item__title">ACCORDION PANEL 1</span></a>
+                            <p class="accordion-item__content">Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur </p>
+                        </li>
+                        <li class="accordion-item">
+                            <a class="accordion-item__panel" href=""><span class="accordion-item__title">ACCORDION PANEL 2</span></a>
+                            <p class="accordion-item__content">Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur </p>
+                        </li>
+                        <li class="accordion-item">
+                            <a class="accordion-item__panel" href=""><span class="accordion-item__title">ACCORDION PANEL 3</span></a>
+                            <p class="accordion-item__content">Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur </p>
+                        </li>
+                        <li class="accordion-item">
+                            <a class="accordion-item__panel" href=""><span class="accordion-item__title">ACCORDION PANEL 4</span></a>
+                            <p class="accordion-item__content">Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="brands">
+    <div class="brands-container">
+        <ul class="brands-list clearfix">
+            <li class="brands-item">
+                <a class="brands-item__link" href="#"><img src="img/brand-rbp-logo.png"/></a>
+            </li>
+            <li class="brands-item">
+                <a class="brands-item__link" href="#"><img src="img/brand-moto-logo.png"/></a>
+            </li>
+            <li class="brands-item">
+                <a class="brands-item__link" href="#"><img src="img/brand-2crave-logo.png"/></a>
+            </li>
+            <li class="brands-item">
+                <a class="brands-item__link" href="#"><img src="img/brand-atx-logo.png"/></a>
+            </li>
+            <li class="brands-item">
+                <a class="brands-item__link" href="#"><img src="img/brand-cruiser-logo.png"/></a>
+            </li>
+            <li class="brands-item">
+                <a class="brands-item__link" href="#"><img src="img/brand-gear-logo.png"/></a>
+            </li>
+        </ul>
+    </div>
+</section>
+<footer>
+    <section class="links">
+        <div class="links-container">
+            <div class="links-block clearfix">
+                <div class="links-list">
+                    <span class="links-list__head">SOCIALS</span>
+                    <ul>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">Facebook</a>
+                        </li>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">Flickr</a>
+                        </li>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">Twitter</a>
+                        </li>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">Vimeo</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="links-list">
+                    <span class="links-list__head">LINKS</span>
+                    <ul>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">How to Write a Blog</a>
+                        </li>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">Create a Blog in 4 Steps</a>
+                        </li>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">15 Tips to Increase Traffic</a>
+                        </li>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">20 Blog Post Ideas</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="links-list">
+                    <span class="links-list__head">BLOGROLL</span>
+                    <ul>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">Blogs Blog</a>
+                        </li>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">Roll Up Roll Up</a>
+                        </li>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">Blog Free</a>
+                        </li>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">Wordpress Blogs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="links-list">
+                    <span class="links-list__head">ABOUT US</span>
+                    <ul>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">Agriculture</a>
+                        </li>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">Harvest</a>
+                        </li>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">Company news</a>
+                        </li>
+                        <li class="links-list__item">
+                            <a class="links-list__link" href="#">Investor relations</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="contacts-wrapper">
+            <div class="clearfix">
+                <div class="contacts-address">
+                    <span class="contacts__img contacts__img--address"></span>
+                    <span>BuildHomeLtd.</span>
+                    <span class="contacts-address__street">Street Name 123</span>
+                    <span class="contacts-address__city">23 45 Cityname</span>
+                </div>
+                <div class="contacts-phone">
+                    <span class="contacts__img contacts__img--phone"></span>
+                    <span class="contacts-phone__phone">+123 900 123 456</span>
+                </div>
+                <div class="contacts-email">
+                    <span class="contacts__img contacts__img--email"></span>
+                    <a class="contacts-email__mail" href="#">info@buildhome.web</a>
+                </div>
+                <div class="copyright">
+                    <span>© 2014 <a class="copyright__link" href="#">Build Home</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+</body>
+</html>
