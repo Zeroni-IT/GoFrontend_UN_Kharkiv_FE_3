@@ -92,6 +92,8 @@
         left: -50px;
         bottom: 163px;
         background: url(../img/icons_about.png) 0px 0px no-repeat;
+        -pie-background: url(../img/icons_about.png) 0px 0px no-repeat;
+        behavior: url(PIE.htc);
     }
 
     /* BLOG STARTS HERE */

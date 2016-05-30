@@ -142,6 +142,8 @@
     .slider__button-play:hover {
         background: url(../img/button_play.png) -51px 0px no-repeat;
         background-size: cover;
+        -pie-background: url(../img/button_play.png) -51px 0px no-repeat;
+        behavior: url(PIE.htc);
     }
 
     .slider__button-previous {
@@ -204,6 +206,8 @@
         left: -50px;
         bottom: 65px;
         background: url(../img/icons_about.png) 0px 0px no-repeat;
+        -pie-background: url(../img/icons_about.png) 0px 0px no-repeat;
+        behavior: url(PIE.htc);
     }
 
     /* BLOG STARTS HERE */
