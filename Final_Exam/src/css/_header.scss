@@ -1,0 +1,230 @@
+/* HEADER */
+/* MOBILE MODE (MOBILE FIRST) */
+.wrapper {
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    margin-bottom: 40px;
+    padding: 1px 0 120px;
+    background: url("../img/header-bg.jpg") center center no-repeat;
+    background-size: cover;
+
+    &__entry {
+        text-align: center;
+
+        &__btn {
+            position: relative;
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 16px;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 14px;
+            border-radius: 20px;
+            behavior: url(css/libs/PIE.htc);
+            border: 2px solid transparent;
+
+            &--login {
+                left: -13px;
+            }
+
+            &--signup {
+                right: 7px;
+            }
+
+            &--login:hover,
+            &--signup:hover {
+                border: 2px solid #fff;
+                transition: all 0.3s;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__content {
+        padding-top: 174px;
+        text-align: center;
+
+        &--title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+            font-weight: 900;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        &--subtitle {
+            padding: 16px 43px 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            font-weight: 300;
+            color: #fff;
+            line-height: 20px;
+        }
+    }
+}
+
+.logo {
+    &__title {
+        position: absolute;
+        top: 173px;
+        width: 100%;
+        text-align: center;
+    }
+
+    &__link {
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+.search {
+    &__btn {
+        display: block;
+        margin: 19px auto;
+        padding: 13px 0;
+        width: 280px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 900;
+        color: #fff;
+        border-radius: 25px;
+        background-color: #ff4e50;
+        transition: all 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #fd8b8c;
+        }
+    }
+}
+
+/* TABLET MODE */
+@media screen and (min-width: $tablet_mode) and (max-width: ($desktop_mode - 1px)) {
+    .wrapper {
+        min-width: ($tablet_mode - 20px);
+        padding: 0 10px;
+    }
+
+    .header {
+        padding: 42px 0 197px;
+        margin-bottom: 99px;
+
+        &__entry {
+            float: right;
+            padding-right: 34px;
+
+            &__btn {
+                margin-top: -4px;
+
+                &--signup {
+                    right: 14px;
+                }
+            }
+        }
+
+        &__content {
+            clear: both;
+            padding-top: 151px;
+
+            &--title {
+                font-size: 52px;
+                line-height: 55px;
+                padding: 0 131px;
+            }
+
+            &--subtitle {
+                font-size: 23px;
+                padding-top: 33px;
+                letter-spacing: 0.5px;
+            }
+        }
+    }
+
+    .logo {
+        &__title {
+            position: static;
+            float: left;
+            padding: 4px 0 0 42px;
+            text-align: start;
+            width: auto;
+        }
+    }
+
+    .search {
+        &__btn {
+            margin: 39px auto;
+            width: 226px;
+        }
+    }
+}
+
+/* DESKTOP MODE */
+@media (min-width: $desktop_mode) {
+    .wrapper {
+        width: 940px;
+    }
+
+    .header {
+        margin-bottom: 100px;
+        padding: 4px 0 219px;
+        width: 100%;
+        background: url("../img/header-bg.jpg") no-repeat;
+        background-position: 50%;
+        background-size: cover;
+
+        &__entry {
+            float: right;
+            padding-top: 16px;
+
+            &__btn {
+                &--login {
+                    left: 1px;
+                }
+
+                &--signup {
+                    right: -2px;
+                }
+            }
+        }
+
+        &__content {
+            padding-top: 214px;
+
+            &--title {
+                padding: 0 21%;
+                font-size: 49px;
+                line-height: 61px;
+                letter-spacing: 2px;
+            }
+
+            &--subtitle {
+                padding: 30px 37px 21px;
+                font-size: 23px;
+                letter-spacing: 0.3px;
+            }
+        }
+    }
+
+    .logo__title {
+        position: static;
+        float: left;
+        padding: 42px 0 0 3px;
+        width: auto;
+    }
+
+    .search {
+        &__btn {
+            &--header {
+                width: 225px;
+            }
+        }
+    }
+}

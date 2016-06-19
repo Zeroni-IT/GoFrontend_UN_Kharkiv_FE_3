@@ -1,0 +1,206 @@
+/* IDEAS */
+/* MOBILE MODE (MOBILE FIRST) */
+.basic {
+    &__header {
+        &--ideas {
+            margin: 37px auto 15px;
+            padding-bottom: 0;
+            line-height: 25px;
+        }
+    }
+}
+
+.ideas {
+    &__container {
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    &__cell {
+        display: flex;
+        margin-bottom: 10px;
+        height: 121px;
+        width: 300px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        background-color: rgba(169, 255, 233, 0.4);
+
+        &--seventh {
+            margin-bottom: 0;
+        }
+    }
+
+    &__form {
+        text-align: center;
+    }
+
+    &__question {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: #333;
+    }
+
+    &__input {
+        margin: 20px 0 10px;
+        padding: 12px 14px;
+        width: 280px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        border: 1px solid #ccc;
+
+        &:focus {
+            border: 1px solid red;
+            outline: none;
+            transition: 0.8s all;
+            box-shadow: 0px 10px 14px -5px rgba(0,0,0,0.7);
+            width: 290px;
+        }
+    }
+}
+
+.search {
+    &__btn {
+        &--ideas {
+            margin: 0 auto 40px;
+            outline: none;
+            border: none;
+            behavior: url(css/libs/PIE.htc);
+        }
+    }
+}
+
+/* TABLET MODE */
+@media screen and (min-width: $tablet_mode) and (max-width: ($desktop_mode - 1px)) {
+    .basic {
+        &__header {
+            &--ideas {
+                margin: 100px auto 40px;
+            }
+        }
+    }
+
+    .ideas {
+        &__container {
+            width: 750px;
+        }
+
+        &__cell {
+            margin-bottom: 20px;
+            height: 310px;
+            width: 235px;
+
+            &--second {
+                margin-left: 5px;
+            }
+
+            &--third,
+            &--seventh {
+                margin-left: 10px;
+            }
+
+            &--fifth {
+                margin-left: 4px;
+            }
+
+            &--fifth,
+            &--sixth {
+                width: 491px;
+                height: 310px;
+            }
+
+            &--sixth,
+            &--seventh {
+                margin-bottom: 0;
+            }
+        }
+
+        &__question {
+            margin-bottom: 40px;
+        }
+
+        &__input {
+            margin: 0 0 100px;
+            width: 240px;
+
+            &:focus {
+                width: 250px;
+            }
+        }
+    }
+
+    .search {
+        &__btn {
+            &--ideas {
+                display: inline-block;
+                margin: 0 0 100px 8px;
+                width: 160px;
+                behavior: url(libs/PIE.htc);
+            }
+        }
+    }
+}
+
+/* DESKTOP MODE */
+@media (min-width: $desktop_mode) {
+    .basic {
+        &__header {
+            &--ideas {
+                margin: 100px auto 40px;
+            }
+        }
+    }
+
+    .ideas {
+        &__container {
+            width: 940px;
+            margin: 34px auto;
+        }
+
+        &__cell {
+            margin-bottom: 20px;
+            height: 310px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+
+            &--fifth,
+            &--sixth {
+                width: 620px;
+            }
+
+            &--sixth,
+            &--seventh {
+                margin-bottom: 0;
+            }
+        }
+
+        &__input {
+            margin: 40px 0 100px;
+            width: 240px;
+
+            &:focus {
+                width: 250px;
+            }
+        }
+    }
+
+    .search {
+        &__btn {
+            &--ideas {
+                display: inline-block;
+                margin: 40px 0 100px 10px;
+                width: 160px;
+                border-radius: 25px;
+                behavior: url(libs/PIE.htc);
+            }
+        }
+    }
+}
